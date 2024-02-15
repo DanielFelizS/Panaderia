@@ -3,7 +3,7 @@ import Formulario from "../components/Formulario";
 import Container from "../components/Container";
 import Routers from "./Routers";
 import Banner from "../components/Banner";
-import useProductos from "../hooks/useProductos";
+import useProductos from "../CustomHooks/UseProductos";
 
 export const Home = () => {
   const { productos, loading, error } = useProductos();
