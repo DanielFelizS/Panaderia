@@ -5,7 +5,7 @@ export const Container = ( {imgUrl, name, precio} ) => {
     <>
     <div className="contenedor">
       <figure>
-          <img src={`src/img/${imgUrl}`} alt={name}/>
+          <img src={`./src/img/${imgUrl}`} alt={name}/>
           <div className="cap">
               <h3>{name}</h3>
               <p>Precio: RD${precio}</p>
