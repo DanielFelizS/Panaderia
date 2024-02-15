@@ -1,0 +1,161 @@
+/*Img Hover*/
+.contenedor {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.contenedor figure {
+    position: relative;
+    width: 430px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.contenedor figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .cap {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #090e13;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+}
+
+.contenedor figure:hover>.cap {
+    opacity: 90%;
+    visibility: visible;
+}
+
+.contenedor figure:hover>.cap h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor figure .cap h3 {
+    color: #fff;
+    font-weight: 400px;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+}
+
+.contenedor figure .cap p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.cap p,
+h3 {
+    font-family: 'Times New Roman', 'Arial';
+}
+.h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+ol{
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+.fundador p{
+    text-align: center;
+    font-family: 'Times New Roman', 'Arial';
+    font-size: 25px;
+}
+#parrafo{
+    margin-top: 280px;
+    font-family: 'Times New Roman', 'Arial';
+    }
+img{
+    border-radius: 10px;
+}
+.img{
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+}
+#vision-valores-mision{
+    border-radius: 10px;
+    width: 430px;
+    height: 270px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+#historia{
+    margin-top: 310px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*Img Fundador*/
+.fundador{
+    position: relative;
+    float: left;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+.fundador figure{
+    position: relative;
+    width: 430px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px
+    rgba(0,0,0,0.50 );
+    cursor: pointer;
+}
+.fundador figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.fundador figure .cap{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #090e13;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+}
+.fundador figure:hover > .cap{
+    opacity: 90%;
+    visibility: visible;
+}
+.fundador figure:hover > .cap h3{  
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.fundador figure .cap h3{
+    color: #fff;
+    font-weight: 400px;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+}
+.fundador figure .cap p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

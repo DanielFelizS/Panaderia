@@ -1,0 +1,39 @@
+@import url('./styles/Banner.css');
+@import url('./styles/Menu.css');
+@import url('./styles/ImgContainer.css');
+@import url('./styles/Footer.css');
+@import url('./styles/Responsive.css');
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* resto de la pagina*/
+p {
+  text-align: center;
+  font-family: 'Times New Roman', 'Arial';
+  font-size: 25px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: rgb(243, 179, 95);
+  text-shadow: 2px 2px 2px #0a141d;
+}
+
+#horario {
+  margin-top: 10px;
+}
+#psa{
+  visibility: hidden;
+}

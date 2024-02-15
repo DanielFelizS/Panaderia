@@ -1,0 +1,172 @@
+{
+"ofertas": [
+{
+    "nombre": "Tostada",
+    "precio": 25,
+    "imagen": "Tostada.jpeg"
+},
+{
+    "nombre": "Sandwichs",
+    "precio": 30,
+    "imagen": "Sandwichs.jpg"
+},
+{
+    "nombre": "Pan con mermelada",
+    "precio": 15,
+    "imagen": "Pan con mermelada.jpeg"
+},
+{
+    "nombre": "Pan de yuca",
+    "precio": 25,
+    "imagen": "Pan de yuca.jpeg"
+},
+{
+    "nombre": "Pan de batata",
+    "precio": 20,
+    "imagen": "Pan de batata.jpeg"
+},
+{
+    "nombre": "Pan de maíz",
+    "precio": 25,
+    "imagen": "Pan de maíz.jpeg"
+}
+],
+"desayunos":[
+    {
+        "nombre": "Combo de donas con café",
+        "precio": 25,
+        "imagen": "Desayuno1.jpg"
+    },
+    {
+        "nombre": "Croissant con bebida",
+        "precio": 35,
+        "imagen": "Desayuno2.jpg"
+    },
+    {
+        "nombre": "Pancake",
+        "precio": 35,
+        "imagen": "Desayuno3.jpg"
+    },
+    {
+        "nombre": "Pan integral con ensalada",
+        "precio": 20,
+        "imagen": "Desayuno4.jpg"
+    },
+    {
+        "nombre": "Combo personalizado",
+        "precio": 50,
+        "imagen": "Desayuno5.jpg"
+    },
+    {
+        "nombre": "Jugos Nutritivos",
+        "precio": 20,
+        "imagen": "Jugos Nutritivos.jpg"
+    }
+],
+"picaderas":[
+    {
+        "nombre": "Empanadas",
+        "precio": 15,
+        "imagen": "Picaderas1.jpg"
+    },
+    {
+        "nombre": "Pan en forma de triángulo",
+        "precio": 15,
+        "imagen": "Picaderas2.jpg"
+    },
+    {
+        "nombre": "Kipes",
+        "precio": 15,
+        "imagen": "Picaderas3.jpg"
+    },
+    {
+        "nombre": "Harina Tostada",
+        "precio": 20,
+        "imagen": "Picaderas4.jpg"
+    },
+    {
+        "nombre": "Picaderas con palitos",
+        "precio": 10,
+        "imagen": "Picaderas5.jpg"
+    },
+    {
+        "nombre": "Pinchos",
+        "precio": 20,
+        "imagen": "Picaderas6.jpg"
+    }
+],
+"birthdays":[
+    {
+        "nombre": "Bizcochos pequeños",
+        "precio": 100,
+        "imagen": "pastel.jpg"
+    },
+    {
+        "nombre": "Bizcochos",
+        "precio": 250,
+        "imagen": "pasteles.jpg"
+    },
+    {
+        "nombre": "Decoraciones de cumpleaños",
+        "precio": "500 - 4000",
+        "imagen": "Compleaños1.jpg"
+    },
+    {
+        "nombre": "Bizcochos decorados",
+        "precio": 300,
+        "imagen": "BizcochoHombres.jpg"
+    },
+    {
+        "nombre": "Refrescos",
+        "precio": 60,
+        "imagen": "Refrescos.jpg"
+    },
+    {
+        "nombre": "Decoraciones de pinchos",
+        "precio": 50,
+        "imagen": "Cumpleaños1.jpg"
+    }
+],
+"famosos":[
+    {
+        "nombre": "Croissant",
+        "precio": 20,
+        "imagen": "pan frances.jpg"
+    },
+    {
+        "nombre": "Pasteles",
+        "precio": "Precio variado",
+        "imagen": "pasteles.jpg"
+    },
+    {
+        "nombre": "Galletas con chispas de chocolate",
+        "precio": 5,
+        "imagen": "Galletas con chispas de chocolate.jpg"
+    },
+    {
+        "nombre": "Galletas María",
+        "precio": 5,
+        "imagen": "Galletas Maria.jpg"
+    },
+    {
+        "nombre": "Pastel",
+        "precio": 250,
+        "imagen": "pastel.jpg"
+    },
+    {
+        "nombre": "Galletas Krispiz",
+        "precio": 50,
+        "imagen": "Galletas Krispis.png"
+    },
+    {
+        "nombre": "Bocadillos",
+        "precio": 5,
+        "imagen": "pan.jpeg"
+    },
+    {
+        "nombre": "Donas",
+        "precio": 20,
+        "imagen": "donas.jpg"
+    }
+]
+}
