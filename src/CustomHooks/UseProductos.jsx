@@ -8,7 +8,7 @@ const useProductos = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/productos.json");
+        const response = await fetch("../productos.json");
         if (!response.ok) {
           throw new Error("No se pudieron cargar los datos");
         }
