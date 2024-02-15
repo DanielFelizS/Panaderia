@@ -10,7 +10,7 @@ export const Servicios = () => {
     const [birthdays, setBirthdays] = useState([]);
 
     useEffect(() => {
-        fetch("../productos.json")
+        fetch("productos.json")
           .then((response) => response.json())
           .then((data) => {
             if (data && data.desayunos && Array.isArray(data.desayunos) || data && data.picaderas && Array.isArray(data.picaderas) || data && data.birthdays && Array.isArray(data.birthdays)) {

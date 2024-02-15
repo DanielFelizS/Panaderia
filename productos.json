@@ -127,7 +127,7 @@
         "imagen": "Cumpleaños1.jpg"
     }
 ],
-"famosos":[
+"famosos": [
     {
         "nombre": "Croissant",
         "precio": 20,
@@ -168,5 +168,5 @@
         "precio": 20,
         "imagen": "donas.jpg"
     }
-]
+  ]
 }

@@ -3,7 +3,8 @@ import Formulario from "../components/Formulario"
 import Container from "../components/Container";
 import Routers from "./Routers";
 import Banner from "../components/Banner";
-// import ofertas from '../productos.json'
+// import productos from '../productos.json';
+
 import { useState, useEffect } from "react";
 
 export const Home = () => {
@@ -11,7 +12,7 @@ export const Home = () => {
   const [productos, setProductos] = useState([])
 
   useEffect(() => {
-    fetch("../productos.json")
+    fetch("productos.json")
       .then((response) => response.json())
       .then((data) => {
         if (data && data.ofertas && Array.isArray(data.ofertas)) {

@@ -9,7 +9,7 @@ export const Productos = () => {
   const [comprados, setComprados] = useState([]);
   
   useEffect(() => {
-    fetch("../productos.json")
+    fetch("productos.json")
       .then((response) => response.json())
       .then((data) => {
         if (data && data.famosos && Array.isArray(data.famosos)) {
