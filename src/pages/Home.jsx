@@ -12,18 +12,19 @@ export const Home = () => {
   const [productos, setProductos] = useState([])
 
   useEffect(() => {
-    fetch("productos.json")
-      .then((response) => response.json())
-      .then((data) => {
-        if (data && data.ofertas && Array.isArray(data.ofertas)) {
-          setProductos(data.ofertas);
-        } else {
-          console.error("La categoría 'ofertas' no existe en el archivo productos.json.");
-        }
-      })
-      .catch((error) => {
-        console.error("Error al obtener los productos:", error);
-      });
+    fetch("/productos.json")
+    .then((response) => response.json())
+    .then((data) => {
+      if (data && data.ofertas && Array.isArray(data.ofertas)) {
+        setProductos(data.ofertas);
+      } else {
+        console.error("La categoría 'ofertas' no existe en el archivo productos.json.");
+      }
+    })
+    .catch((error) => {
+      console.error("Error al obtener los productos:", error);
+    });
+  
   }, []);
   
   return (

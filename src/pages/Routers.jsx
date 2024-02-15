@@ -12,7 +12,7 @@ export const Routers = () => {
     <>
         <header className="header">
         <nav className="nav">
-            <img src="src\img\Panaderia Felíz.png" alt="logo"/>
+            <img src="/img/Panaderia_Felíz.png" alt="logo"/>
           <button className="nav-toggle" aria-label={menuVisible ? 'Cerrar menú' : 'Abrir menú'}
             onClick={menu_mobile}>
             <GrMenu />

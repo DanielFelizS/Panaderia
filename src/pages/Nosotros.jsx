@@ -11,13 +11,13 @@ export const Nosotros = () => {
 
       <h2> Sobre Nosotros</h2>
       <h3 className="h3">Visión</h3>
-      <img id="vision-valores-mision" src="public/img/Vision.jfif" alt="" />
+      <img id="vision-valores-mision" src="/img/Vision.jfif" alt="" />
       <p>Ofrecer el mejor servicio de Panadería y Repostería a los clientes</p>
       <h3 className="h3">Misión</h3>
-      <img id="vision-valores-mision" src="public/img/mision.jpg" alt="mision" />
+      <img id="vision-valores-mision" src="/img/mision.jpg" alt="mision" />
       <p>Brindamos los mejores precios de Panadería y Repostería</p>
       <h3 className="h3">Valores</h3>
-      <img id="vision-valores-mision" src="public/img/Valores.jfif" alt="" />
+      <img id="vision-valores-mision" src="/img/Valores.jfif" alt="" />
       <ol>
       <li>Responsabilidad</li>
       <li>Honestidad</li>
@@ -27,7 +27,7 @@ export const Nosotros = () => {
       <div>
       <div className="contenedor" style={{marginLeft: '260px'}}>
         <figure>
-          <img id="Eli" src="public/img/Eli.jpg" alt="Gerente" title="Gerente"/>
+          <img id="Eli" src="/img/Eli.jpg" alt="Gerente" title="Gerente"/>
           <div className="cap">
             <h3>Eli R. Muñoz</h3>
             <p>Gerente</p>
@@ -36,7 +36,7 @@ export const Nosotros = () => {
       </div>
       <div className="contenedor">
         <figure>
-          <img src="public/img/Keily.jpeg" alt="Empleado del mes" title="Empleado del mes" />
+          <img src="/img/Keily.jpeg" alt="Empleado del mes" title="Empleado del mes" />
           <div className="cap">
             <h3>Keily Alcantara Herasme</h3>
             <p>Empleado del mes</p>
@@ -47,7 +47,7 @@ export const Nosotros = () => {
       <h3 id="historia" className="h3">Historia</h3>
       <div className="fundador">
         <figure>
-          <img src="./public/img/yo.jpeg" alt="Daniel Feliz" />
+          <img src="/img/yo.jpeg" alt="Daniel Feliz" />
           <div className="cap">
             <h3>Daniel Feliz</h3>
             <p>fundador</p>
