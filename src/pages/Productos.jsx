@@ -34,7 +34,7 @@ export const Productos = () => {
     <h2>Nuestros productos más comprados</h2>
     <div className="contenedor">
         <figure>
-            <img src="src/img/variedad.jpg" alt="Panes"/>
+            <img src="public/img/variedad.jpg" alt="Panes"/>
             <div className="cap">
                 <h3>Panes</h3>
                 <p>Ofrecemos pan de agua, sobao, integral, etc.</p>

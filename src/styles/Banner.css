@@ -17,22 +17,22 @@
 
     0%,
     20% {
-        background-image: url(../img/donas.jpg);
+        background-image: url(/public/img/donas.jpg);
     }
 
     25%,
     45% {
-        background-image: url(../img/variedad.jpg);
+        background-image: url(/public/img/variedad.jpg);
     }
 
     50%,
     70% {
-        background-image: url(../img/pasteles.jpg);
+        background-image: url(/public/img/pasteles.jpg);
     }
 
     75%,
     100% {
-        background-image: url(../img/banner-panaderia.jpg);
+        background-image: url(/public/img/banner-panaderia.jpg);
     }
 }
 

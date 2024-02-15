@@ -5,7 +5,7 @@ export const Navbar = () => {
     <>
         <header className="header">
         <nav className="nav">
-            <img src="src\img\Panaderia Felíz.png" alt="logo"/>
+            <img src="/public/img/Panaderia_Felíz.png" alt="logo"/>
           <button className="nav-toggle" aria-label="Abrir menú">
             <i><GrMenu/></i>
           </button>
